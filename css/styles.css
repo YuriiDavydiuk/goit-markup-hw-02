@@ -21,6 +21,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .header-logo-text {
   color: #2e2f42;
@@ -30,6 +31,21 @@ body {
   font-weight: 500;
   color: #2e2f42;
   list-style: none;
+}
+
+.header-menu-link {
+  font-size: 500;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.header-contacts-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
 }
 
 .hero {
@@ -134,13 +150,6 @@ body {
   color: #f4f4fd;
 }
 
-a {
-  font-size: 12px;
-  line-height: 1.3;
-  letter-spacing: 0.04em;
-  color: #434455;
-  text-decoration: none;
-}
 a:hover,
 a:focus {
   color: #4b5ae5;
