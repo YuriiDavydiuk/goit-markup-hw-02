@@ -30,7 +30,7 @@ body {
 }
 
 .hero {
-  background-image: url("/images/business-solutions-background.jpg");
+  background-image: url("../images/business-solutions-background.jpg");
   color: #ffffff;
   height: 600px;
 }
