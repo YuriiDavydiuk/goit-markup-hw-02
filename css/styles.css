@@ -46,9 +46,13 @@ body {
   color: #404bbf;
 }
 
+.header-contacts {
+  font-style: normal;
+}
+
 .header-contacts-link {
   font-weight: 400;
-  font-style: normal;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
