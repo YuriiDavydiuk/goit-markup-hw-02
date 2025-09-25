@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -34,13 +34,21 @@ body {
 }
 
 .header-menu-link {
-  font-size: 500;
+  font-weight: 500;
   color: #2e2f42;
   text-decoration: none;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: #404bbf;
+}
+
 .header-contacts-link {
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -50,8 +58,8 @@ body {
 
 .hero {
   background-image: url("../images/business-solutions-background.jpg");
+  background-color: #2e2f42;
   color: #ffffff;
-  height: 600px;
 }
 
 .hero-title {
@@ -59,19 +67,22 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: 0.04em;
-  background-color: #404bbf;
+  line-height: 1.5;
+  background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #4b5ae5;
+  background-color: #404bbf;
 }
 
 .hero-button:active {
@@ -96,6 +107,7 @@ body {
 
 .team {
   background-image: url("../images/our-team-background.jpg");
+  background-color: #f4f4fd;
 }
 .team-list {
   list-style: none;
@@ -105,7 +117,13 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
+}
+
+.team-member {
+  background-color: #ffffff;
 }
 
 .team-name {
@@ -125,6 +143,8 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -138,6 +158,7 @@ body {
 
 .footer {
   background-image: url("../images/footer-background.jpg");
+  background-color: #2e2f42;
 }
 
 .footer-logo-text {
@@ -148,11 +169,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
-}
-
-a:hover,
-a:focus {
-  color: #4b5ae5;
 }
 
 a:active {
